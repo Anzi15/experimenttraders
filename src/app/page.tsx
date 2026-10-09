@@ -16,6 +16,7 @@ import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
 import { TelegramWidget } from "@/components/TelegramWidget";
 import { SocialProofToast } from "@/components/SocialProofToast";
+import { TelegramPopup } from "@/components/TelegramPopup";
 
 export default function Home() {
   return (
@@ -75,6 +76,9 @@ export default function Home() {
 
       {/* Subtle Live Community Activity Toast (Left Side) */}
       <SocialProofToast />
+
+      {/* First-Visit Telegram Join Popup (Center) */}
+      <TelegramPopup />
     </main>
   );
 }
