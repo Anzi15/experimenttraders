@@ -137,21 +137,21 @@ export function Footer() {
               Trading leveraged financial instruments involves significant risk and may not be suitable for all investors. Nothing on this website constitutes guaranteed returns, personalized financial advice or a promise of profit. Users are responsible for their own trading decisions and risk management. Past performance does not guarantee future results.
             </p>
           </div>
-          <div className="flex items-center gap-3 sm:gap-6 text-xs text-[#697386] shrink-0">
+          {/* <div className="flex items-center gap-3 sm:gap-6 text-xs text-[#697386] shrink-0">
             <span className="whitespace-nowrap font-medium">
               © 2026 Expermiment Traders. All rights reserved.
             </span>
-          </div>
+          </div>*/}
         </div>
 
         {/* Anzi & Co. Credit — Very Bottom Row */}
         <div className="mt-6 pt-6 border-t border-[#DDE7F3] flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3">
           <span className="text-[11px] sm:text-xs font-bold uppercase tracking-[0.18em] text-[#697386]">
-            Website designed &amp; developed by
+            © 2026 Expermiment Traders. All rights reserved.
           </span>
-          <span className="text-xl font-black tracking-tight text-[#061A40] leading-none whitespace-nowrap">
+          {/*  <span className="text-xl font-black tracking-tight text-[#061A40] leading-none whitespace-nowrap">
             ANZI <span className="text-[#075FF7]">&amp;</span> CO.
-          </span>
+          </span>     */}
         </div>
       </div>
     </footer>
